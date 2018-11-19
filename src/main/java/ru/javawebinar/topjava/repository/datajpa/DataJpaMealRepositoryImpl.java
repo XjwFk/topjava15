@@ -12,7 +12,6 @@ import java.util.List;
 
 @Repository
 public class DataJpaMealRepositoryImpl implements MealRepository {
-    private static final Sort SORT_DATE_REVERSE = new Sort(Sort.Direction.DESC, "date_time");
 
     @Autowired
     private CrudMealRepository crudMealRepository;
